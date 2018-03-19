@@ -6,7 +6,7 @@ const app  = express();
 
 const redirectToLogin= function (req,res) {
   // res.send(fs.readFileSync('/public/login.html'));
-  res.redirect('./login.html');
+  res.redirect('./index.html');
 }
 // const getBody = function (req,res) {
 //   console.log(req.body);
