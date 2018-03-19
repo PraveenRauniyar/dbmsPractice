@@ -17,7 +17,7 @@ pool.query(`insert into students_info values ($1,$2);`, [username, password], (e
       return;
     }
     console.log(result);
-    res.redirect('/login.html');
+    res.redirect('/index.html');
   });
 }
 exports.submitDataHandler = submitDataHandler;
