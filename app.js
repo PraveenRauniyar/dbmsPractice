@@ -5,13 +5,8 @@ const submitDataHandler = require('./handler.js').submitDataHandler;
 const app  = express();
 
 const redirectToLogin= function (req,res) {
-  // res.send(fs.readFileSync('/public/login.html'));
   res.redirect('./index.html');
 }
-// const getBody = function (req,res) {
-//   console.log(req.body);
-//   console.log(req.body,'fhjmgh');
-// }
 
 app.use(express.urlencoded({extended:false}));
 
